@@ -94,6 +94,8 @@ To initialize your local repository using the patchrom trees, use a command like
 
     $ repo init -u https://github.com/FlymeOS/manifest.git -b marshmallow-6.0
 
+Add device-base_cm, if you use CM13 rom, not stock one!
+Read here: https://github.com/FlymeOS/devices-base_cm
 Then to sync up:
 
     $ repo sync -c -j4
